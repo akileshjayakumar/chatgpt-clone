@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  border-bottom: 1px solid #ff00cc;
+  height: 45px;
+}
+
+.header h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.container {
+  max-width: 915px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px); /* Adjusted to accommodate footer */
+}
+
+.input-container {
+  width: 750px; /* Adjust the width as needed */
+  padding: 10px;
+  background-color: #353333;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  z-index: 2;
+  align-items: center;
+  position: fixed;
+  bottom: 100px; /* Position just above the footer */
+  left: 0;
+  right: 0; /* Set both left and right to 0 to center horizontally */
+  margin: 0 auto; /* Center horizontally */
+}
+
+#user-input {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 9;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: calc(100% - 70px); /* Adjusted width to accommodate button */
+  height: 70px;
+}
+
+#user-input::placeholder {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+#send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+  background-color: #59dfff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #000000;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 0 20px;
+  margin-bottom: 130px; /* Adjusted margin to provide space for the input container and footer */
+}
+
+#chat-log {
+  overflow-y: auto;
+  margin: 20px 10px; /* Adjusted margin to provide space for the input container */
+  max-height: calc(
+    100vh - 230px
+  ); /* Adjusted to accommodate both footer and input container */
+}
+
+.bot,
+.user {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.message i.user-icon,
+.message i.bot-icon {
+  /* Base icon styles (identical for both) */
+  background-color: #42dd61; /* Change background color (or choose a common color) */
+  padding: 8px; /* Increased padding for bigger size */
+  margin-right: 10px; /* Adjust margin right as needed */
+  border-radius: 50%; /* Make the icons perfectly circular */
+  color: #ffffff; /* Icon color */
+  width: 36px; /* Increased width for larger size */
+  height: 36px; /* Increased height for larger size */
+  font-size: 24px; /* Adjusted font size */
+  line-height: 36px; /* Align content vertically within the circle */
+  display: flex; /* Enables flexbox for centering */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+/* Optional customizations (remove if you want identical icons) */
+.message.user i.user-icon {
+  background-color: #5cce97; /* Different color for user icon */
+}
+
+.message.bot i.bot-icon {
+  background-color: #ab68ff; /* Different color for bot icon */
+}
+
+.footer {
+  background-color: #000000;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 3; /* Ensure footer is above other elements */
+}
