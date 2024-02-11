@@ -23,11 +23,11 @@ Welcome to my ChatGPT Clone Project! This project aims to replicate the function
 
 To run the project locally:
 
-1. Clone the repository: `git clone https://github.com/yourGithubUsername/chatgpt-clone.git`
-2. Navigate to the project directory: `cd chatgpt-clone`
-3. Install dependencies: `npm install`
-4. Start the server: `npm run dev`
-5. Open your web browser and go to `http://localhost:3000`
+1. **Clone the repository:** `git clone https://github.com/yourGithubUsername/chatgpt-clone.git`
+2. **Navigate to the project directory:** `cd chatgpt-clone`
+3. **Install dependencies:** `npm install`
+4. **Start the server:** `npm run dev`
+5. **Open your web browser:** Go to `http://localhost:3000`
 
 ## Contributing
 
