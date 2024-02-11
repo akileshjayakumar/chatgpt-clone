@@ -1,4 +1,4 @@
-# ChatGPT Clone Project
+# AkileshGPT - ChatGPT Clone Project
 
 ## Introduction
 
@@ -14,10 +14,11 @@ Welcome to my ChatGPT Clone Project! This project aims to replicate the function
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js, Express
-- API: gpt-3.5-turbo-0125 API
-- Version Control: Git
+- **Frontend:** HTML | CSS | JavaScript
+- **Backend:** Node.js, Express
+- **API:** OpenAI API | Model: gpt-3.5-turbo-0125
+- **Version Control:** Git
+- **Deployment:** Hosted on Render | GitHub for CI/CD
 
 ## Project Setup
 
@@ -31,11 +32,12 @@ To run the project locally:
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvement or would like to add features, feel free to fork the repository, make your changes, and create a pull request. You can also open an issue to discuss potential enhancements.
+Contributions are welcome! If you have ideas for improvement or would like to add features, feel free to fork the repository, make your changes, and create a pull request.
 
 ## Contact Information
 
 - **Name**: Akilesh Jayakumar
 - **Email**: jayakuma006@mymail.sim.edu.sg
-- **LinkedIn**: <a href="https://www.linkedin.com/in/akileshjayakumar/" target="_blank">Akilesh Jayakumar on LinkedIn</a>
-- **GitHub**: <a href="https://github.com/akileshjayakumar" target="_blank">Akilesh Jayakumar on GitHub</a>
+- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
+  
