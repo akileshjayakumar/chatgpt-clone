@@ -36,7 +36,8 @@ body {
 }
 
 .input-container {
-  width: 700px; /* Adjust the width as needed */
+  width: 90%; /* Adjusted width to be responsive */
+  max-width: 700px; /* Added max-width to prevent container from stretching too much */
   padding: 10px;
   background-color: #353333;
   display: flex;
@@ -45,10 +46,10 @@ body {
   z-index: 2;
   align-items: center;
   position: fixed;
-  bottom: 100px; /* Position just above the footer */
-  left: 0;
-  right: 0; /* Set both left and right to 0 to center horizontally */
-  margin: 0 auto; /* Center horizontally */
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 120px; /* Increased margin to provide more space */
 }
 
 #user-input {
@@ -57,12 +58,12 @@ body {
   border: none;
   outline: none;
   padding: 10px;
-  flex: 9;
+  flex: 1;
   font-size: 16px;
   border-radius: 20px;
   margin-right: 10px;
+  height: 50px;
   width: calc(100% - 70px); /* Adjusted width to accommodate button */
-  height: 70px;
 }
 
 #user-input::placeholder {
@@ -90,20 +91,18 @@ body {
 }
 
 .chat-container {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  overflow: hidden;
+  overflow: auto;
   padding: 0 20px;
-  margin-bottom: 130px; /* Adjusted margin to provide space for the input container and footer */
+  margin-bottom: 180px; /* Increased margin to provide more space */
 }
 
 #chat-log {
   overflow-y: auto;
-  margin: 20px 10px; /* Adjusted margin to provide space for the input container */
-  max-height: calc(
-    100vh - 230px
-  ); /* Adjusted to accommodate both footer and input container */
+  margin: 20px 10px;
 }
 
 .bot,
@@ -119,38 +118,51 @@ body {
 
 .message i.user-icon,
 .message i.bot-icon {
-  /* Base icon styles (identical for both) */
-  background-color: #42dd61; /* Change background color (or choose a common color) */
-  padding: 8px; /* Increased padding for bigger size */
-  margin-right: 10px; /* Adjust margin right as needed */
-  border-radius: 50%; /* Make the icons perfectly circular */
-  color: #ffffff; /* Icon color */
-  width: 36px; /* Increased width for larger size */
-  height: 36px; /* Increased height for larger size */
-  font-size: 24px; /* Adjusted font size */
-  line-height: 36px; /* Align content vertically within the circle */
-  display: flex; /* Enables flexbox for centering */
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
+  background-color: #42dd61;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Optional customizations (remove if you want identical icons) */
 .message.user i.user-icon {
-  background-color: #5cce97; /* Different color for user icon */
+  background-color: #5cce97;
 }
 
 .message.bot i.bot-icon {
-  background-color: #ab68ff; /* Different color for bot icon */
+  background-color: #ab68ff;
 }
 
 .footer {
   background-color: #000000;
   color: #ccc;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  z-index: 3; /* Ensure footer is above other elements */
+  z-index: 3;
+  font-size: 16px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (min-width: 768px) {
+  .input-container {
+    width: 700px; /* Adjusted width for desktop screens */
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .input-container {
+    width: 90%; /* Adjusted width for smaller screens */
+    max-width: 100%; /* Added max-width for smaller screens */
+  }
 }
