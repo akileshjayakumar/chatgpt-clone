@@ -15,7 +15,7 @@ Welcome to my ChatGPT Clone Project! This project aims to replicate the function
 ## Technologies Used
 
 - **Frontend:** HTML | CSS | JavaScript
-- **Backend:** Node.js, Express
+- **Backend:** Node.js | Express
 - **API:** OpenAI API | Model: gpt-3.5-turbo-0125
 - **Version Control:** Git
 - **Deployment:** Hosted on Render | GitHub for CI/CD
