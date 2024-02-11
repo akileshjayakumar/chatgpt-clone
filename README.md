@@ -8,7 +8,7 @@ Welcome to my ChatGPT Clone Project! This project aims to replicate the function
 
 - **Chat Interface**: User-friendly chat interface allowing users to interact with the chatbot.
 - **Real-time Responses**: Instantaneous responses from the chatbot, simulating a natural conversation.
-- **Customization Options**: Options for customizing the chatbot's behavior and appearance.
+- **Customization Options**: Options for customizing the chatbot's behaviour and appearance.
 - **Server-side Functionality**: Utilizes Node.js and Express for server-side logic and handling API requests.
 - **API Integration**: Integrates with the GPT API to generate responses based on user input.
 
