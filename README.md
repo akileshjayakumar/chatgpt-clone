@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the ChatGPT Clone Project! This project aims to replicate the functionality of a chatbot powered by GPT (Generative Pre-trained Transformer) technology. Through this project, I demonstrate proficiency in both frontend and backend development, including HTML, CSS, JavaScript, Node.js, Express, and API integration.
+Welcome to my ChatGPT Clone Project! This project aims to replicate the functionality of a chatbot powered by GPT (Generative Pre-trained Transformer) technology. Through this project, I demonstrate proficiency in both frontend and backend development, including HTML, CSS, JavaScript, Node.js, Express, and API integration.
 
 ## Features
 
@@ -16,7 +16,7 @@ Welcome to the ChatGPT Clone Project! This project aims to replicate the functio
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
-- API: GPT API
+- API: gpt-3.5-turbo-0125 API
 - Version Control: Git
 
 ## Project Setup
@@ -26,7 +26,7 @@ To run the project locally:
 1. Clone the repository: `git clone https://github.com/yourGithubUsername/chatgpt-clone.git`
 2. Navigate to the project directory: `cd chatgpt-clone`
 3. Install dependencies: `npm install`
-4. Start the server: `node server.js`
+4. Start the server: `npm run dev`
 5. Open your web browser and go to `http://localhost:3000`
 
 ## Contributing
@@ -37,5 +37,5 @@ Contributions are welcome! If you have ideas for improvement or would like to ad
 
 - **Name**: Akilesh Jayakumar
 - **Email**: jayakuma006@mymail.sim.edu.sg
-- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
+- **LinkedIn**: <a href="https://www.linkedin.com/in/akileshjayakumar/" target="_blank">Akilesh Jayakumar on LinkedIn</a>
+- **GitHub**: <a href="https://github.com/akileshjayakumar" target="_blank">Akilesh Jayakumar on GitHub</a>
