@@ -12,13 +12,13 @@ Welcome to my ChatGPT Clone Project! This project aims to replicate the function
 - **Server-side Functionality**: Utilizes Node.js and Express for server-side logic and handling API requests.
 - **API Integration**: Integrates with the GPT API to generate responses based on user input.
 
-## Technologies Used
+## Tools Used
 
-- **Frontend:** HTML | CSS | JavaScript
-- **Backend:** Node.js | Express
-- **API:** OpenAI API | Model: gpt-3.5-turbo-0125
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express
+- **API:** OpenAI API
 - **Version Control:** Git
-- **Deployment:** Hosted on Render | GitHub for CI/CD
+- **Deployment:** Hosted on Render, GitHub for CI/CD
 
 ## Project Setup
 
