@@ -27,7 +27,7 @@ To run the project locally:
 1. **Clone the repository:** `git clone https://github.com/yourGithubUsername/chatgpt-clone.git`
 2. **Navigate to the project directory:** `cd chatgpt-clone`
 3. **Install dependencies:** `npm install`
-4. **Start the server:** `npm run dev`
+4. **Start the server:** `npm run server`
 5. **Open your web browser:** Go to `http://localhost:3000`
 
 ## Contributing

@@ -16,14 +16,17 @@ body {
   align-items: center;
   justify-content: center;
   color: #ccc;
-  border-bottom: 1px solid #ff0000;
   height: 45px;
+  background-color: #000000; /* New background color for header */
+  padding: 20px 0; /* Added padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
 }
 
 .header h3 {
-  font-size: 25px;
-  font-weight: 500;
-  color: white;
+  font-size: 40px; /* Increased font size */
+  font-weight: 600; /* Adjusted weight for emphasis */
+  color: #59dfff; /* Color change for a nicer look */
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7); /* Optional: Adds a subtle glow effect */
 }
 
 .container {
@@ -39,10 +42,10 @@ body {
   width: 90%; /* Adjusted width to be responsive */
   max-width: 700px; /* Added max-width to prevent container from stretching too much */
   padding: 10px;
-  background-color: #353333;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
-  border-radius: 25px;
+  border-radius: 100px;
   z-index: 2;
   align-items: center;
   position: fixed;
@@ -63,6 +66,7 @@ body {
   border-radius: 20px;
   margin-right: 10px;
   height: 50px;
+  border-radius: 100px;
   width: calc(100% - 70px); /* Adjusted width to accommodate button */
 }
 
@@ -97,7 +101,7 @@ body {
   justify-content: flex-end;
   overflow: auto;
   padding: 20px 100px;
-  margin-bottom: 100px; /* Increased margin to provide more space */
+  margin-bottom: 100px;
 }
 
 #chat-log {
@@ -153,10 +157,9 @@ body {
   font-size: 16px;
 }
 
-/* Media queries for responsiveness */
 @media only screen and (min-width: 768px) {
   .input-container {
-    width: 700px; /* Adjusted width for desktop screens */
+    width: 700px;
   }
 }
 
