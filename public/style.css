@@ -12,21 +12,16 @@ body {
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ccc;
-  height: 45px;
-  background-color: #000000; /* New background color for header */
-  padding: 20px 0; /* Added padding for better spacing */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  text-align: center;
+  color: #59dfff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header h3 {
-  font-size: 40px; /* Increased font size */
-  font-weight: 600; /* Adjusted weight for emphasis */
-  color: #59dfff; /* Color change for a nicer look */
-  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7); /* Optional: Adds a subtle glow effect */
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .container {
@@ -39,20 +34,19 @@ body {
 }
 
 .input-container {
-  width: 90%; /* Adjusted width to be responsive */
+  width: calc(100% - 20px); /* Adjusted width to be responsive */
   max-width: 700px; /* Added max-width to prevent container from stretching too much */
-  padding: 10px;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
   border-radius: 100px;
   z-index: 2;
   align-items: center;
   position: fixed;
-  bottom: 20px;
+  bottom: 0; /* Positioned at the bottom of the viewport */
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 99px; /* Increased margin to provide more space */
+  margin-bottom: 9rem; /* Center the container horizontally */
+  align-items: center;
 }
 
 #user-input {
@@ -66,8 +60,7 @@ body {
   border-radius: 20px;
   margin-right: 10px;
   height: 50px;
-  border-radius: 100px;
-  width: calc(100% - 70px); /* Adjusted width to accommodate button */
+  width: calc(100% - 100px); /* Adjusted width to accommodate button */
 }
 
 #user-input::placeholder {
@@ -81,7 +74,7 @@ body {
   justify-content: center;
   padding: 8px;
   border: none;
-  background-color: #59dfff;
+  background-color: #000000;
   color: #fff;
   cursor: pointer;
   border-radius: 100%;
@@ -100,7 +93,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   overflow: auto;
-  padding: 20px 100px;
+  padding: 20px 10px;
   margin-bottom: 100px;
 }
 
@@ -148,7 +141,7 @@ body {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -157,15 +150,34 @@ body {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .input-container {
-    width: 700px;
+    width: 500px;
+    padding: 0.8rem;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
   .input-container {
-    width: 90%; /* Adjusted width for smaller screens */
-    max-width: 100%; /* Added max-width for smaller screens */
+    width: calc(100% - 20px); /* Adjusted width for smaller screens */
+    border-radius: 50px; /* Smaller border-radius for smaller screens */
+    padding: 8px;
+    bottom: 10px; /* Adjusted position for smaller screens */
   }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-animation {
+  animation: pop 0.3s ease;
 }
