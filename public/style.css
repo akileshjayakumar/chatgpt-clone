@@ -137,19 +137,6 @@ body {
   background-color: #ab68ff;
 }
 
-.footer {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 3;
-  font-size: 16px;
-}
-
 @media only screen and (min-width: 900px) {
   .input-container {
     width: 500px;
@@ -180,4 +167,18 @@ body {
 
 .pop-animation {
   animation: pop 0.3s ease;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+  font-size: 16px;
+  font-weight: 600;
 }
