@@ -1,4 +1,4 @@
-# AkileshGPT - ChatGPT Clone Project
+# ChatGPT Clone
 
 ## Introduction
 
