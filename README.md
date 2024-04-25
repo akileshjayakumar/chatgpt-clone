@@ -8,9 +8,7 @@ Welcome to the ChatGPT Clone Project! This repository contains a clone of the Ch
 
 - **Chat Interface**: A user-friendly interface that allows seamless interaction with the chatbot.
 - **Real-time Responses**: Delivers instantaneous replies, mimicking a natural conversation flow.
-- **Customization Options**: Provides users the ability to alter the chatbot’s behavior and appearance.
 - **Server-side Logic**: Employs Node.js and Express to handle server-side logic and API requests efficiently.
-- **API Integration**: Uses the OpenAI API to generate intelligent responses based on user inputs.
 
 ## Tools Used
 
@@ -18,7 +16,6 @@ Welcome to the ChatGPT Clone Project! This repository contains a clone of the Ch
 - **Backend**: Node.js, Express
 - **APIs**: OpenAI API
 - **Version Control**: Git
-- **Deployment**: Render (for hosting), GitHub (for CI/CD workflows)
 
 ## Project Setup
 
