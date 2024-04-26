@@ -1,10 +1,6 @@
 # ChatGPT Clone
 
-## Introduction
-
-Welcome to the ChatGPT Clone Project! This repository contains a clone of the ChatGPT application, demonstrating the capabilities of the GPT (Generative Pre-trained Transformer) technology. This project showcases skills in frontend and backend development, including HTML, CSS, JavaScript, Node.js, Express, and API integration.
-
-## Features
+## Key Features
 
 - **Chat Interface**: A user-friendly interface that allows seamless interaction with the chatbot.
 - **Real-time Responses**: Delivers instantaneous replies, mimicking a natural conversation flow.
@@ -16,6 +12,7 @@ Welcome to the ChatGPT Clone Project! This repository contains a clone of the Ch
 - **Backend**: Node.js, Express
 - **APIs**: OpenAI API
 - **Version Control**: Git
+- **Deployment**: This project is not deployed.
 
 ## Project Setup
 
@@ -42,7 +39,13 @@ To get this project running locally, follow these steps:
 
 ## Contributing
 
-Contributions are highly encouraged! If you have suggestions for improvements or would like to add new features, please fork the repository, make your changes, and submit a pull request.
+Your contributions are welcome! If you have ideas for improvements or new features:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Submit a pull request.
 
 ## Contact Information
 
