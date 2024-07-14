@@ -20,7 +20,7 @@ To get this project running locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourGithubUsername/chatgpt-clone.git
+   git clone https://github.com/akileshjayakumar/chatgpt-clone
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -41,16 +41,22 @@ To get this project running locally, follow these steps:
 
 Your contributions are welcome! If you have ideas for improvements or new features:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Submit a pull request.
+1. **Fork the Repository**
+2. **Create a Branch:**
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Commit Changes:**
+   ```bash
+   git commit -am 'Add new feature: description'
+   ```
+4. **Push to Branch:**
+   ```bash
+   git push origin feature-branch
+   ```
+5. **Submit a Pull Request**
 
-## Contact Information
-
-For more information, please reach out to me at:
-
-- **Email**: jayakuma006@mymail.sim.edu.sg
-- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
-- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
+## Contact
+- **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
+- **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
