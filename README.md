@@ -57,6 +57,7 @@ Your contributions are welcome! If you have ideas for improvements or new featur
 5. **Submit a Pull Request**
 
 ## Contact
+
 - **Email:** [jayakuma006@mymail.sim.edu.sg](mailto:jayakuma006@mymail.sim.edu.sg)
 - **LinkedIn:** [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
 - **GitHub:** [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
